@@ -51,7 +51,7 @@ p{
     margin-bottom: 10%
 }
 
-#numbers{
+#numbers1{
     display: flex;
     justify-content: space-between;
     margin-right: 30%;
@@ -59,7 +59,39 @@ p{
     font-weight: 700;
     color: hsl(0, 0%, 100%)
 }
-#words{
+#numbers2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30%;
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%)
+}
+#numbers3{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30%;
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%)
+}
+#words1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30%;
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.6);
+
+}
+#words2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30%;
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.6);
+
+}
+#words3{
     display: flex;
     justify-content: space-between;
     margin-right: 30%;
@@ -108,7 +140,7 @@ p{
         font-size: small;
     }
 
-    #numbers{
+    #numbers1{
         display: flex;
         column-gap: 500px;
         flex-direction: column;
@@ -117,13 +149,45 @@ p{
         font-weight: 700;
         color: hsl(0, 0%, 100%)
     }
-    #words{
+    #numbers2{
+        display: flex;
+        column-gap: 500px;
+        flex-direction: column;
+        margin-right: 30%;
+        font-size: 20px;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%)
+    }
+    #numbers3{
+        display: flex;
+        column-gap: 500px;
+        flex-direction: column;
+        margin-right: 30%;
+        font-size: 20px;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%)
+    }
+    #words1{
         display: flex;
         flex-direction: column;
         margin-right: 30%;
         font-size: 10px;
         color: hsla(0, 0%, 100%, 0.6);
     
+    }
+    #words2{
+        display: flex;
+        flex-direction: column;
+        margin-right: 30%;
+        font-size: 10px;
+        color: hsla(0, 0%, 100%, 0.6);
+    }
+    #words3{
+        display: flex;
+        flex-direction: column;
+        margin-right: 30%;
+        font-size: 10px;
+        color: hsla(0, 0%, 100%, 0.6);
     }
     .footer{
         column-count: 1;
